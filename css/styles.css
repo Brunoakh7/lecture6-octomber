@@ -1,0 +1,49 @@
+.conteiner {
+  width: 1312px;
+  margin: auto;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+.header-content {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-list-but {
+  display: flex;
+  align-items: center;
+  column-gap: 60px;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 60px;
+}
+
+.header-but {
+  display: flex;
+  column-gap: 56.25px;
+}
+
+.pro-btn {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #69306d;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* end of header */
