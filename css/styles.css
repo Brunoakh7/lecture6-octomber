@@ -47,3 +47,29 @@ header {
 }
 
 /* end of header */
+
+.main-con {
+  height: 535px;
+  margin-top: 98px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery-section {
+  width: 646px;
+  height: 535px;
+  display: flex;
+  column-gap: 20px;
+}
+
+.images-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.main-image {
+  width: 535px;
+  height: 535px;
+  background: url("../images/product-img.jpg");
+}
