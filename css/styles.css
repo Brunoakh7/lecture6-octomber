@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
 .conteiner {
   width: 1312px;
   margin: auto;
@@ -72,4 +74,31 @@ header {
   width: 535px;
   height: 535px;
   background: url("../images/product-img.jpg");
+}
+
+/* img sec */
+
+.main-con {
+  column-gap: 70px;
+}
+
+.text-sec {
+  width: 593px;
+  height: 535px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.product-title {
+  width: 571px;
+  font-size: 33px;
+  font-weight: bold;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+
+.stars-content {
+  border: 2px solid red;
+  width: 217px;
+  height: 27px;
+  margin-top: 11px;
 }
